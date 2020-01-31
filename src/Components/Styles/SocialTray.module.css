@@ -1,0 +1,12 @@
+
+.social img{
+  padding-top: 1.5rem;
+}
+
+.social{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+}

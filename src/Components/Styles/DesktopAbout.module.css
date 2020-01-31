@@ -1,0 +1,34 @@
+.contain{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+SideBar{
+  flex: 1;
+}
+
+.mainAbout{
+  flex: 1;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.mainAbout h1{
+  color: #0F3C7A;
+  font-size: 5rem;
+}
+
+.mainAbout p{
+  font-size: 1.7rem;
+}
+
+.mainAbout img{
+  max-height: 3rem;
+}
+
+.mainAboutImg{
+  display: flex;
+  justify-content: space-around;
+}

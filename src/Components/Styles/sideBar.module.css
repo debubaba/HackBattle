@@ -1,0 +1,29 @@
+.containerSB{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: fit-content;
+}
+
+.frakimg{
+  justify-content: center;
+}
+
+.containSB{
+  flex: 1;
+  max-width: fit-content;
+}
+
+#frak{
+  padding-top: 20%;
+  order: 2;
+}
+
+#ieeecslogo{
+  order: 1;
+  padding: 1rem;
+}
+
+#social{
+  order: 3;
+}

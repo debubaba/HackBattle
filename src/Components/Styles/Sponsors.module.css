@@ -1,0 +1,33 @@
+
+  .contain{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  SideBar{
+    flex: 1;
+  }
+
+  .mainSponsor{
+    flex: 1;
+  }
+
+  .mainSponsorIn{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .slider {
+    flex: 1;
+    max-height: 15rem;
+    max-width: 70rem;
+}
+
+
+.title{
+  flex: 1;
+  color: #0F3C7A;
+  font-size: 3rem;
+
+}

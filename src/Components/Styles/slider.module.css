@@ -1,0 +1,42 @@
+body{
+  width: 100%;
+}
+
+
+/* For Mobile */
+@media screen and (max-width: 540px) {
+Slider{
+  max-width: 8rem;
+}
+
+.circles {
+border: 0.1875em solid #0F1C3F;
+border-radius: 50%;
+box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+height: 8rem;
+width: 8rem!important;
+}
+
+.images{
+  padding-top: 3rem;
+  padding-left: 0.5rem;
+  max-width: 7rem;
+}
+}
+/* For Tablets/Laptops */
+@media screen and (min-width: 540px) {
+
+.circles {
+border: 0.1875em solid #0F1C3F;
+border-radius: 50%;
+box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+height: 13rem;
+width: 13rem!important;
+}
+
+.images{
+  padding-top: 4.5rem;
+  padding-left: 1rem;
+  max-width: 11rem;
+}
+}

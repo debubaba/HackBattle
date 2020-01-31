@@ -1,0 +1,56 @@
+ body{
+   overflow-y: scroll;
+ }
+  .contain{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  SideBar{
+    flex: 1;
+    order: 1;
+  }
+
+
+  .Mainimage{
+    flex: 1;
+    text-align: center;
+    order: 2;
+  }
+
+  .MainimageIn{
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .MainimageIn h1{
+    color: black!important;
+  }
+
+  .hblogo{
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+
+  .Mainimage h2{
+    /* position: absolute; */
+    color: white;
+    text-decoration: none;
+    padding-top: 7%!important;
+    /* margin-top: -3rem;
+    margin-left: 11.5rem; */
+  }
+
+  .rocket{
+    flex: 1;
+    order: 3;
+    text-align: center;
+  }
+
+  .rocketImage{
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
