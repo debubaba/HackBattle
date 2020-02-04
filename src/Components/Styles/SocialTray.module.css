@@ -10,3 +10,15 @@
   padding-left: 2rem;
   padding-bottom: 1rem;
 }
+
+@media screen and (max-width: 540px) {
+
+  .social{
+    position: fixed;
+    bottom: 240px;
+    left: 0;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+  }
+
+}

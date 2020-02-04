@@ -12,6 +12,8 @@ class SimpleSlider extends Component {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
+    vertical: (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1)
+
     };
     return (
       <div>

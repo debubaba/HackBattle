@@ -9,7 +9,7 @@ class LandingBody extends Component {
     return(
       <div className={Styles.page, Styles.contain} >
             <NavBar />
-            <SideBar />
+            <SideBar pic="two" />
             <div className={Styles.Mainimage}>
                 <div className={Styles.MainimageIn}>
                   <div>
@@ -20,16 +20,16 @@ class LandingBody extends Component {
                   </div>
                   <div>
                     <a href="">
-                      <img src={require('./Resources/registerButton.png')} alt="RegisterButton" />
+                      <img src={require('./Resources/registerButton.png')} alt="RegisterButton" className={Styles.registerButton} />
                     </a>
 
                   </div>
                 </div>
-            </div>
-            <div className={Styles.rocket}>
-              <img src={require('./Resources/hblogo2.png')} alt="HackBattleRocket" className={Styles.rocketImage} />
+                </div>
+                <div className={Styles.rocket}>
+                  <img src={require('./Resources/hblogo2.png')} alt="HackBattleRocket" className={Styles.rocketImage} />
 
-            </div>
+                </div>
 
 
 

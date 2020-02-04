@@ -20,6 +20,17 @@ SideBar{
   font-size: 5rem;
 }
 
+@media screen and (max-width: 540px){
+
+  .mainAbout h1{
+    color: #0F3C7A;
+    font-size: 3rem;
+  }
+  .mainAbout p{
+    font-size: 1.5rem!important;
+  }
+}
+
 .mainAbout p{
   font-size: 1.7rem;
 }

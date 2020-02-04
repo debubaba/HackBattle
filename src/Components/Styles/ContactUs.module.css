@@ -17,11 +17,42 @@ SideBar{
   box-shadow: inset 0px 0px 40px 40px #ffffff;
   border-radius: 50%;
   max-height: 30rem;
+  padding: 3.5rem;
+}
+
+@media screen and (max-width: 540px) {
+
+  .mainContact img{
+    box-shadow: inset 0px 0px 40px 40px #ffffff;
+    border-radius: 50%;
+    max-height: 30rem;
+    padding: 0rem;
+    max-width: 18rem;
+  }
+
+  .mainContact{
+    max-width: 17rem;
+    padding-top: 15%;
+  }
+
+    .info h3{
+      color: #0F3C7A;
+      font-size: 1.5rem;
+    }
+
+    .info div{
+      font-size: 1rem;
+    }
+    .mainContact h1{
+        color: #0F3C7A;
+        font-size: 3rem;
+    }
+
 }
 
 .mainContact h1{
     color: #0F3C7A;
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 .info{
@@ -39,5 +70,5 @@ SideBar{
   }
 
   .info div{
-    font-size: 1.5rem;
+    font-size: 2rem;
   }

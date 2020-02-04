@@ -86,6 +86,7 @@ label input:checked + .menu .hamburger:before {
 
 }
 
+
 label input:checked + .menu + ul { opacity: 1; }
 
 label ul {
