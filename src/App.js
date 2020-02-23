@@ -31,7 +31,7 @@ class App extends Component {
      color: ["#0F3C7A", "#0B132B", "#1C2541", "#5BC0BE", "#6FFFE9"],
      cross: "bound",
      // emitter: "follow",
-     random: 20
+     random: 10
    };
 
    if (Math.random() > 0.85) {
@@ -56,19 +56,19 @@ class App extends Component {
     <Router>
     <Route render={({location}) => (
       <TransitionGroup>
-        <CSSTransition timeout={500} classNames="fade" key={location.key}>
+      <CSSTransition timeout={500} classNames="fade" key={location.key}>
           <Switch location={location}>
             <Route path="/" exact component={LandingBody} />
             <Route path="/about" component={AboutUs} />
             <Route path="/contact" component={ContactUs} />
             <Route path="/sponsor" component={SponsorPage} />
           </Switch>
+          
         </CSSTransition>
         </TransitionGroup>
     )}/>
 
     </Router>
-    <ParticlesBg type="custom" config={config} bg={true} />
     </div>
   )
 }

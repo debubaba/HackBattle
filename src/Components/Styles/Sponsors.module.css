@@ -1,21 +1,30 @@
 
   .contain{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
   }
 
   SideBar{
     flex: 1;
+    order: 1;
   }
 
   .mainSponsor{
-    flex: 1;
-  }
+
+      flex: 1;
+      text-align: center;
+      order: 2;
+      max-width: 80rem;
+      padding-top: 8rem;
+      }
 
   .mainSponsorIn{
-    display: flex;
-    flex-direction: column;
+      display: flex;
+      flex-direction: column;
   }
+
+
 
   .slider {
     flex: 1;

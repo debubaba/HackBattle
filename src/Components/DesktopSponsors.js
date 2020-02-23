@@ -3,7 +3,7 @@ import NavBar from './DesktopNavBar.js'
 import SocialTray from './socialIcons.js'
 import SimpleSlider from './Slider.js'
 import Styles from './Styles/Sponsors.module.css'
-import SideBar from './sideBar.js'
+import SideBar from './sideBar2.js'
 
 class SponsorPage extends Component {
   render(){

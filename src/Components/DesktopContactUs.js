@@ -3,7 +3,7 @@ import NavBar from './DesktopNavBar.js'
 import SocialTray from './socialIcons.js'
 import Styles from './Styles/ContactUs.module.css'
 
-import SideBar from './sideBar.js'
+import SideBar from './sideBar3.js'
 
 class ContactUs extends Component {
   render(){

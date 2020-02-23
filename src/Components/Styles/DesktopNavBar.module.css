@@ -6,6 +6,11 @@ body {
   overflow-x: hidden;
 }
 
+ul{
+
+    text-decoration: none;
+}
+
 li{
   text-decoration: none;
   font-size: 2rem;
@@ -87,10 +92,13 @@ label input:checked + .menu .hamburger:before {
 }
 
 
-label input:checked + .menu + ul { opacity: 1; }
+label input:checked + .menu + ul { opacity: 1;
+  z-index: 200;
+
+  text-decoration: none; }
 
 label ul {
-  z-index: 200;
+  z-index: -200;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -99,6 +107,8 @@ label ul {
   opacity: 0;
   -webkit-transition: .25s 0s ease-in-out;
   transition: .25s 0s ease-in-out;
+
+  text-decoration: none;
 }
 
 label a {

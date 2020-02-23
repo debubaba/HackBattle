@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import NavBar from './DesktopNavBar.js'
 import SocialTray from './socialIcons.js'
 import Styles from './Styles/DesktopAbout.module.css'
-import SideBar from './sideBar.js'
+import SideBar from './sideBar1.js'
 
 class AboutUs extends Component {
   render(){

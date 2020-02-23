@@ -35,17 +35,21 @@ SideBar{
     padding-top: 15%;
   }
 
+    .info{
+      padding-left: 8rem;
+    }
+
     .info h3{
       color: #0F3C7A;
-      font-size: 1.5rem;
+      font-size: 1.5rem!important;
     }
 
     .info div{
-      font-size: 1rem;
+      font-size: 1rem!important;
     }
     .mainContact h1{
         color: #0F3C7A;
-        font-size: 3rem;
+        font-size: 3rem!important;
     }
 
 }
